@@ -1,4 +1,4 @@
 module Positions where
 
 positions :: [a] -> [(a,Int)]
-positions = undefined
+positions xs = zip xs [1..]
